@@ -10,7 +10,7 @@ or, with the magic:
 """
 from .core import normalize_link, render_local, show, slide_images
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __all__ = ["show", "normalize_link", "render_local", "slide_images", "load_ipython_extension"]
 
 
