@@ -1,14 +1,18 @@
 # colab-slides
 
+[![PyPI](https://img.shields.io/pypi/v/colab-slides)](https://pypi.org/project/colab-slides/)
+[![Python](https://img.shields.io/pypi/pyversions/colab-slides)](https://pypi.org/project/colab-slides/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AhmadM-DL/colab-slides/blob/main/LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AhmadM-DL/colab-slides/blob/main/demo.ipynb)
+
 Show PowerPoint or Google Slides decks inside a Google Colab or Jupyter notebook by pasting a link.
 
-![colab-slides rendering a deck in a notebook cell](docs/notebook.png)
+![colab-slides rendering a deck in a notebook cell](https://raw.githubusercontent.com/AhmadM-DL/colab-slides/main/docs/notebook.png)
 
 ## Install (in Colab)
 
 ```python
-!pip install -q git+https://github.com/AhmadM-DL/colab-slides.git
-# or upload the folder and run:  !pip install -q ./colab-slides
+!pip install -q colab-slides
 ```
 
 ## Use
@@ -46,7 +50,7 @@ The first `local` render installs LibreOffice in the Colab VM (about 1–2 minut
 
 | Slideshow with thumbnails | Fullscreen (press `f`) |
 |---|---|
-| ![Slideshow with thumbnails](docs/player.png) | ![Fullscreen view](docs/fullscreen.png) |
+| ![Slideshow with thumbnails](https://raw.githubusercontent.com/AhmadM-DL/colab-slides/main/docs/player.png) | ![Fullscreen view](https://raw.githubusercontent.com/AhmadM-DL/colab-slides/main/docs/fullscreen.png) |
 
 ## Supported links
 
