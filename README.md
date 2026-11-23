@@ -2,6 +2,8 @@
 
 Show PowerPoint or Google Slides decks inside a Google Colab or Jupyter notebook by pasting a link.
 
+![colab-slides rendering a deck in a notebook cell](docs/notebook.png)
+
 ## Install (in Colab)
 
 ```python
@@ -39,6 +41,12 @@ colab_slides.show(url, mode="auto")   # "auto" | "embed" | "local"
 The first `local` render installs LibreOffice in the Colab VM (about 1–2 minutes, once per runtime).
 
 **Slideshow controls (local mode):** ← → / Space / PageUp/PageDown, Home/End, `f` for fullscreen, click the left or right part of a slide, or click a thumbnail.
+
+### Screenshots
+
+| Slideshow with thumbnails | Fullscreen (press `f`) |
+|---|---|
+| ![Slideshow with thumbnails](docs/player.png) | ![Fullscreen view](docs/fullscreen.png) |
 
 ## Supported links
 
