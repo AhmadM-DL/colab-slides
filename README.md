@@ -7,7 +7,7 @@
 
 Show PowerPoint or Google Slides decks inside a Google Colab or Jupyter notebook by pasting a link.
 
-![colab-slides rendering a deck in a notebook cell](https://raw.githubusercontent.com/AhmadM-DL/colab-slides/main/docs/notebook.png)
+![Demo: running %slides in a notebook cell and flipping through the deck](https://raw.githubusercontent.com/AhmadM-DL/colab-slides/main/docs/demo.gif)
 
 ## Install (in Colab)
 
